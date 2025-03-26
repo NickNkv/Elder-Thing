@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Documents\\Github\\Elder-Thing\\Elder Thing\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3C8D9535-09FD-4BA7-AF53-CD31F3DD0D8F}|Elder Thing\\Elder Thing.vcxproj|D:\\Documents\\Github\\Elder-Thing\\Elder Thing\\Elder Thing\\player.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3C8D9535-09FD-4BA7-AF53-CD31F3DD0D8F}|Elder Thing\\Elder Thing.vcxproj|solutionrelative:Elder Thing\\player.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C8D9535-09FD-4BA7-AF53-CD31F3DD0D8F}|Elder Thing\\Elder Thing.vcxproj|D:\\Documents\\Github\\Elder-Thing\\Elder Thing\\Elder Thing\\player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3C8D9535-09FD-4BA7-AF53-CD31F3DD0D8F}|Elder Thing\\Elder Thing.vcxproj|solutionrelative:Elder Thing\\player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C8D9535-09FD-4BA7-AF53-CD31F3DD0D8F}|Elder Thing\\Elder Thing.vcxproj|D:\\Documents\\Github\\Elder-Thing\\Elder Thing\\Elder Thing\\weapon.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3C8D9535-09FD-4BA7-AF53-CD31F3DD0D8F}|Elder Thing\\Elder Thing.vcxproj|solutionrelative:Elder Thing\\weapon.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C8D9535-09FD-4BA7-AF53-CD31F3DD0D8F}|Elder Thing\\Elder Thing.vcxproj|D:\\Documents\\Github\\Elder-Thing\\Elder Thing\\Elder Thing\\weapon.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3C8D9535-09FD-4BA7-AF53-CD31F3DD0D8F}|Elder Thing\\Elder Thing.vcxproj|solutionrelative:Elder Thing\\weapon.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C8D9535-09FD-4BA7-AF53-CD31F3DD0D8F}|Elder Thing\\Elder Thing.vcxproj|D:\\Documents\\Github\\Elder-Thing\\Elder Thing\\Elder Thing\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3C8D9535-09FD-4BA7-AF53-CD31F3DD0D8F}|Elder Thing\\Elder Thing.vcxproj|solutionrelative:Elder Thing\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "player.cpp",
+              "DocumentMoniker": "D:\\Documents\\Github\\Elder-Thing\\Elder Thing\\Elder Thing\\player.cpp",
+              "RelativeDocumentMoniker": "Elder Thing\\player.cpp",
+              "ToolTip": "D:\\Documents\\Github\\Elder-Thing\\Elder Thing\\Elder Thing\\player.cpp",
+              "RelativeToolTip": "Elder Thing\\player.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-26T07:32:48.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "player.hpp",
+              "DocumentMoniker": "D:\\Documents\\Github\\Elder-Thing\\Elder Thing\\Elder Thing\\player.hpp",
+              "RelativeDocumentMoniker": "Elder Thing\\player.hpp",
+              "ToolTip": "D:\\Documents\\Github\\Elder-Thing\\Elder Thing\\Elder Thing\\player.hpp",
+              "RelativeToolTip": "Elder Thing\\player.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-26T07:32:40.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "weapon.cpp",
+              "DocumentMoniker": "D:\\Documents\\Github\\Elder-Thing\\Elder Thing\\Elder Thing\\weapon.cpp",
+              "RelativeDocumentMoniker": "Elder Thing\\weapon.cpp",
+              "ToolTip": "D:\\Documents\\Github\\Elder-Thing\\Elder Thing\\Elder Thing\\weapon.cpp",
+              "RelativeToolTip": "Elder Thing\\weapon.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-26T07:32:29.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "weapon.hpp",
+              "DocumentMoniker": "D:\\Documents\\Github\\Elder-Thing\\Elder Thing\\Elder Thing\\weapon.hpp",
+              "RelativeDocumentMoniker": "Elder Thing\\weapon.hpp",
+              "ToolTip": "D:\\Documents\\Github\\Elder-Thing\\Elder Thing\\Elder Thing\\weapon.hpp",
+              "RelativeToolTip": "Elder Thing\\weapon.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-26T07:32:22.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\Documents\\Github\\Elder-Thing\\Elder Thing\\Elder Thing\\main.cpp",
+              "RelativeDocumentMoniker": "Elder Thing\\main.cpp",
+              "ToolTip": "D:\\Documents\\Github\\Elder-Thing\\Elder Thing\\Elder Thing\\main.cpp",
+              "RelativeToolTip": "Elder Thing\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-26T07:22:23.17Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
