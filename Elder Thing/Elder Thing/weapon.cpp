@@ -15,6 +15,10 @@ Weapon::Weapon(const char name[32], int damage, int weight, int requiredStrength
 		std::cout << "Name cannot be an empty string" << std::endl;
 		return;
 	}
+	if (strlen(name) > 31) {
+		std::cout << "Name cannot be longer than 31 characters" << std::endl;
+		return;
+	}
 	if (damage < 0) {
 		std::cout << "Damage cannot be negative" << std::endl;
 		return;

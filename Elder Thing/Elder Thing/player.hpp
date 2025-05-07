@@ -4,6 +4,11 @@
 class Player 
 {
 public:
+	//constructor
+	Player();
+	Player(int hp, int maxHp, int mp, int maxMp, int stamina, int maxStamina, int runes, int level);
+	
+	//getters and setters
 	int getHp() const { return hp; }
 	void setHp(int hp);
 
@@ -37,8 +42,8 @@ public:
 	int getWeaponsCount() const { return weaponsCount; }
 	void setWeaponsCount(int weaponsCount);
 
-	Weapon* getWeapons() const;
-	void setWeapons(Weapon* weapons);
+	Weapon getWeapons() const;
+	void setWeapons(Weapon& weapons);
 private:
 	//atributes
 	int hp = 0;
@@ -54,5 +59,5 @@ private:
 	int currentWeight = 0;
 	int maxCarryCapacity = 0;
 	int weaponsCount = 0;
-	Weapon* weapons;
+	Weapon weapons[3];
 };
