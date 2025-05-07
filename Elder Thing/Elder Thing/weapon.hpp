@@ -1,7 +1,11 @@
 #pragma once
 
-class Weapon 
-{
+class Weapon {
+public:
+	Weapon();
+	Weapon(const char name[32], int damage, int weight, int requiredStrength);
+	void printInfo();
+
 private:
 	char name[32] = "John Doe";
 	int damage = 0;
