@@ -4,60 +4,71 @@
 class Player 
 {
 public:
+	//the params in the functions are int in order
+	//to have validation with personalised messages 
+	
 	//constructor
 	Player();
-	Player(int hp, int maxHp, int mp, int maxMp, int stamina, int maxStamina, int runes, int level);
+	Player(int hp, int maxHp, int mp, int maxMp, int stamina, int maxStamina, int runes);
 	
 	//getters and setters
-	int getHp() const { return hp; }
+	unsigned getHp() const { return hp; }
 	void setHp(int hp);
 
-	int getMaxHp() const { return maxHp; }
+	unsigned getMaxHp() const { return maxHp; }
 	void setMaxHp(int maxHp);
 
-	int getStamina() const { return stamina; }
+	unsigned getMp() const { return mp; }
+	void setMp(int mp);
+
+	unsigned getMaxMp() const { return maxMp; }
+	void setMaxMp(int maxMp);
+
+	unsigned getStamina() const { return stamina; }
 	void setStamina(int stamina);
 
-	int getMaxStamina() const { return maxStamina; }
+	unsigned getMaxStamina() const { return maxStamina; }
 	void setMaxStamina(int maxStamina);
 
-	int getRunes() const { return runes; }
+	unsigned getRunes() const { return runes; }
 	void setRunes(int runes);
 
-	int getLevel() const { return level; }
+	unsigned getLevel() const { return level; }
 	void setLevel(int level);
 
-	int getFlaskChargeHp() const { return flaskChargesHp; }
+	unsigned getFlaskChargeHp() const { return flaskChargesHp; }
 	void setFlaskChargeHp(int flaskChargeHp);
 
-	int getFlaskChargeMp() const { return flaskChargesMp; }
+	unsigned getFlaskChargeMp() const { return flaskChargesMp; }
 	void setFlaskChargeMp(int setFlaskChargeMp);
 
-	int getCurrentWeight() const { return currentWeight; }
+	unsigned getCurrentWeight() const { return currentWeight; }
 	void setCurrentWeight(int currentWeight);
 
-	int getMaxCarryCapacity() const { return maxCarryCapacity; }
+	unsigned getMaxCarryCapacity() const { return maxCarryCapacity; }
 	void setMaxCarryCapacity(int maxCarryCapacity);
 
-	int getWeaponsCount() const { return weaponsCount; }
+	unsigned getWeaponsCount() const { return weaponsCount; }
 	void setWeaponsCount(int weaponsCount);
 
 	Weapon getWeapons() const;
 	void setWeapons(Weapon& weapons);
 private:
 	//atributes
-	int hp = 0;
-	int maxHp = 0;
-	int stamina = 0;
-	int maxStamina = 0;
-	int runes = 0;
-	int level = 0;
+	unsigned hp;
+	unsigned maxHp;
+	unsigned mp;
+	unsigned maxMp;
+	unsigned stamina;
+	unsigned maxStamina;
+	unsigned runes;
+	unsigned level;
 	//resources
-	int flaskChargesHp = 3;
-	int flaskChargesMp = 3;
+	unsigned flaskChargesHp;
+	unsigned flaskChargesMp;
 	//equipment
-	int currentWeight = 0;
-	int maxCarryCapacity = 0;
-	int weaponsCount = 0;
+	unsigned currentWeight;
+	unsigned maxCarryCapacity;
+	unsigned weaponsCount;
 	Weapon weapons[3];
 };
