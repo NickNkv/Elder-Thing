@@ -12,6 +12,9 @@ public:
 	Player(int hp, int maxHp, int mp, int maxMp, int stamina, int maxStamina, int runes);
 	
 	//getters and setters
+	char getName() const { return *name; }
+	void setName(const char* name);
+
 	unsigned getHp() const { return hp; }
 	void setHp(int hp);
 
@@ -37,10 +40,10 @@ public:
 	void setLevel(int level);
 
 	unsigned getFlaskChargeHp() const { return flaskChargesHp; }
-	void setFlaskChargeHp(int flaskChargeHp);
+	void setFlaskChargeHp(int flaskChargesHp);
 
 	unsigned getFlaskChargeMp() const { return flaskChargesMp; }
-	void setFlaskChargeMp(int setFlaskChargeMp);
+	void setFlaskChargeMp(int setFlaskChargesMp);
 
 	unsigned getCurrentWeight() const { return currentWeight; }
 	void setCurrentWeight(int currentWeight);
@@ -55,6 +58,7 @@ public:
 	void setWeapons(Weapon& weapons);
 private:
 	//atributes
+	char name[32];
 	unsigned hp;
 	unsigned maxHp;
 	unsigned mp;

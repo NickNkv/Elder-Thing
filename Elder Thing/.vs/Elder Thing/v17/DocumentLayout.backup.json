@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\Documents\\Github\\Elder-Thing\\Elder Thing\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3C8D9535-09FD-4BA7-AF53-CD31F3DD0D8F}|Elder Thing\\Elder Thing.vcxproj|D:\\Documents\\Github\\Elder-Thing\\Elder Thing\\Elder Thing\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3C8D9535-09FD-4BA7-AF53-CD31F3DD0D8F}|Elder Thing\\Elder Thing.vcxproj|solutionrelative:Elder Thing\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3C8D9535-09FD-4BA7-AF53-CD31F3DD0D8F}|Elder Thing\\Elder Thing.vcxproj|D:\\Documents\\Github\\Elder-Thing\\Elder Thing\\Elder Thing\\player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3C8D9535-09FD-4BA7-AF53-CD31F3DD0D8F}|Elder Thing\\Elder Thing.vcxproj|solutionrelative:Elder Thing\\player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3C8D9535-09FD-4BA7-AF53-CD31F3DD0D8F}|Elder Thing\\Elder Thing.vcxproj|D:\\Documents\\Github\\Elder-Thing\\Elder Thing\\Elder Thing\\player.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3C8D9535-09FD-4BA7-AF53-CD31F3DD0D8F}|Elder Thing\\Elder Thing.vcxproj|solutionrelative:Elder Thing\\player.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C8D9535-09FD-4BA7-AF53-CD31F3DD0D8F}|Elder Thing\\Elder Thing.vcxproj|D:\\Documents\\Github\\Elder-Thing\\Elder Thing\\Elder Thing\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3C8D9535-09FD-4BA7-AF53-CD31F3DD0D8F}|Elder Thing\\Elder Thing.vcxproj|solutionrelative:Elder Thing\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3C8D9535-09FD-4BA7-AF53-CD31F3DD0D8F}|Elder Thing\\Elder Thing.vcxproj|D:\\Documents\\Github\\Elder-Thing\\Elder Thing\\Elder Thing\\weapon.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,26 +66,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "player.cpp",
               "DocumentMoniker": "D:\\Documents\\Github\\Elder-Thing\\Elder Thing\\Elder Thing\\player.cpp",
               "RelativeDocumentMoniker": "Elder Thing\\player.cpp",
-              "ToolTip": "D:\\Documents\\Github\\Elder-Thing\\Elder Thing\\Elder Thing\\player.cpp",
-              "RelativeToolTip": "Elder Thing\\player.cpp",
-              "ViewState": "AgIAAHIAAAAAAAAAAAAYwIYAAAACAAAAAAAAAA==",
+              "ToolTip": "D:\\Documents\\Github\\Elder-Thing\\Elder Thing\\Elder Thing\\player.cpp*",
+              "RelativeToolTip": "Elder Thing\\player.cpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-26T07:32:48.136Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "player.hpp",
               "DocumentMoniker": "D:\\Documents\\Github\\Elder-Thing\\Elder Thing\\Elder Thing\\player.hpp",
               "RelativeDocumentMoniker": "Elder Thing\\player.hpp",
               "ToolTip": "D:\\Documents\\Github\\Elder-Thing\\Elder Thing\\Elder Thing\\player.hpp",
               "RelativeToolTip": "Elder Thing\\player.hpp",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAA8AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-03-26T07:32:40.632Z",
               "EditorCaption": ""
@@ -100,8 +100,7 @@
               "RelativeToolTip": "Elder Thing\\weapon.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-26T07:32:29.516Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-26T07:32:29.516Z"
             },
             {
               "$type": "Document",
@@ -113,12 +112,11 @@
               "RelativeToolTip": "Elder Thing\\weapon.hpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-26T07:32:22.908Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-26T07:32:22.908Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "main.cpp",
               "DocumentMoniker": "D:\\Documents\\Github\\Elder-Thing\\Elder Thing\\Elder Thing\\main.cpp",
               "RelativeDocumentMoniker": "Elder Thing\\main.cpp",
