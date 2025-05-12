@@ -7,10 +7,14 @@ public:
 	//the params in the functions are int in order
 	//to have validation with personalised messages 
 	
-	//constructor
+	//lifecycle
 	Player();
-	Player(int hp, int maxHp, int mp, int maxMp, int stamina, int maxStamina, int runes);
-	
+	Player(const char* name, int hp, int maxHp, int mp, int maxMp, int stamina, int maxStamina, int runes);
+	Player(Player const &);
+	~Player();
+
+	Player& operator =(Player const& other);
+
 	//getters and setters
 	char getName() const { return *name; }
 	void setName(const char* name);
@@ -54,8 +58,17 @@ public:
 	unsigned getWeaponsCount() const { return weaponsCount; }
 	void setWeaponsCount(int weaponsCount);
 
-	Weapon getWeapons() const;
-	void setWeapons(Weapon& weapons);
+	Weapon* getWeapons() const;
+
+	//game mechanics
+	void addWeapon(Weapon& weapon);
+	void deleteWeapon();
+	void heal();
+	void rechargeMana();
+	int takeDamage(unsigned damage); // todo: add armor
+	void printInfo();
+	void printWeapons();
+
 private:
 	//atributes
 	char name[32];
@@ -70,9 +83,9 @@ private:
 	//resources
 	unsigned flaskChargesHp;
 	unsigned flaskChargesMp;
-	//equipment
+	//equipment 
 	unsigned currentWeight;
 	unsigned maxCarryCapacity;
 	unsigned weaponsCount;
-	Weapon weapons[3];
+	Weapon* weapons;
 };

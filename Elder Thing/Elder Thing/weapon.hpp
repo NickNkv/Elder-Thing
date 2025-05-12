@@ -2,13 +2,19 @@
 
 class Weapon {
 public:
+	//life cycle
 	Weapon();
-	Weapon(const char name[32], int damage, int weight, int requiredStrength);
+	Weapon(const char name[32], unsigned damage, unsigned weight, unsigned requiredStrength);
+
+	//getters/setters
+	unsigned getWeight() const { return weight; };
+
+	//game mechanics
 	void printInfo();
 
 private:
-	char name[32] = "John Doe";
-	int damage = 0;
-	int weight = 0;
-	int requiredStrength = 0;
+	char name[32];
+	unsigned damage;
+	unsigned weight;
+	unsigned requiredStrength;
 };

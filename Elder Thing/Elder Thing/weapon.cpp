@@ -10,26 +10,26 @@ Weapon::Weapon() {
 	this->requiredStrength = 1;
 }
 
-Weapon::Weapon(const char name[32], int damage, int weight, int requiredStrength) {
+Weapon::Weapon(const char name[32], unsigned damage, unsigned weight, unsigned requiredStrength) {
 	if (strlen(name) == 0) {
 		std::cout << "Name cannot be an empty string" << std::endl;
-		return;
+		throw std::invalid_argument("Invalid name input!");
 	}
 	if (strlen(name) > 31) {
 		std::cout << "Name cannot be longer than 31 characters" << std::endl;
-		return;
+		throw std::invalid_argument("Invalid name input!");
 	}
 	if (damage < 0) {
 		std::cout << "Damage cannot be negative" << std::endl;
-		return;
+		throw std::invalid_argument("Invalid damage input!");
 	}
 	if (weight <= 0) {
 		std::cout << "Weight must be a positive number" << std::endl;
-		return;
+		throw std::invalid_argument("Invalid weight input!");
 	}
 	if (requiredStrength <= 0) {
 		std::cout << "The required strength must be a positive number" << std::endl;
-		return;
+		throw std::invalid_argument("Invalid required strength input!");
 	}
 
 	strcpy(this->name, name);
