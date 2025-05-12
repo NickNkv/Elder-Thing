@@ -10,7 +10,7 @@ public:
 	//lifecycle
 	Player();
 	Player(const char* name, int hp, int maxHp, int mp, int maxMp, int stamina, int maxStamina, int runes);
-	Player(Player const &);
+	Player(Player const &other);
 	~Player();
 
 	Player& operator =(Player const& other);

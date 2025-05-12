@@ -93,6 +93,9 @@ Player::Player(const char* name, int hp, int maxHp, int mp, int maxMp, int stami
 	this->maxCarryCapacity = MAX_CARRY_CAP;
 	this->weaponsCount = 0; //we start without weapons
 	this->weapons = new (std::nothrow) Weapon[3];
+	if (!this->weapons) {
+		throw std::bad_alloc();
+	}
 }
 
 Player::Player(Player const &other) {
