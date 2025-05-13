@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "D:\\Documents\\Github\\Elder-Thing\\Elder Thing\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3C8D9535-09FD-4BA7-AF53-CD31F3DD0D8F}|Elder Thing\\Elder Thing.vcxproj|D:\\Documents\\Github\\Elder-Thing\\Elder Thing\\Elder Thing\\enemy.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3C8D9535-09FD-4BA7-AF53-CD31F3DD0D8F}|Elder Thing\\Elder Thing.vcxproj|solutionrelative:Elder Thing\\enemy.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{3C8D9535-09FD-4BA7-AF53-CD31F3DD0D8F}|Elder Thing\\Elder Thing.vcxproj|D:\\Documents\\Github\\Elder-Thing\\Elder Thing\\Elder Thing\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3C8D9535-09FD-4BA7-AF53-CD31F3DD0D8F}|Elder Thing\\Elder Thing.vcxproj|solutionrelative:Elder Thing\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3C8D9535-09FD-4BA7-AF53-CD31F3DD0D8F}|Elder Thing\\Elder Thing.vcxproj|D:\\Documents\\Github\\Elder-Thing\\Elder Thing\\Elder Thing\\enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3C8D9535-09FD-4BA7-AF53-CD31F3DD0D8F}|Elder Thing\\Elder Thing.vcxproj|solutionrelative:Elder Thing\\enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C8D9535-09FD-4BA7-AF53-CD31F3DD0D8F}|Elder Thing\\Elder Thing.vcxproj|D:\\Documents\\Github\\Elder-Thing\\Elder Thing\\Elder Thing\\player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3C8D9535-09FD-4BA7-AF53-CD31F3DD0D8F}|Elder Thing\\Elder Thing.vcxproj|solutionrelative:Elder Thing\\player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C8D9535-09FD-4BA7-AF53-CD31F3DD0D8F}|Elder Thing\\Elder Thing.vcxproj|D:\\Documents\\Github\\Elder-Thing\\Elder Thing\\Elder Thing\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3C8D9535-09FD-4BA7-AF53-CD31F3DD0D8F}|Elder Thing\\Elder Thing.vcxproj|solutionrelative:Elder Thing\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{3C8D9535-09FD-4BA7-AF53-CD31F3DD0D8F}|Elder Thing\\Elder Thing.vcxproj|D:\\Documents\\Github\\Elder-Thing\\Elder Thing\\Elder Thing\\enemy.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3C8D9535-09FD-4BA7-AF53-CD31F3DD0D8F}|Elder Thing\\Elder Thing.vcxproj|solutionrelative:Elder Thing\\enemy.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3C8D9535-09FD-4BA7-AF53-CD31F3DD0D8F}|Elder Thing\\Elder Thing.vcxproj|D:\\Documents\\Github\\Elder-Thing\\Elder Thing\\Elder Thing\\player.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3C8D9535-09FD-4BA7-AF53-CD31F3DD0D8F}|Elder Thing\\Elder Thing.vcxproj|solutionrelative:Elder Thing\\player.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C8D9535-09FD-4BA7-AF53-CD31F3DD0D8F}|Elder Thing\\Elder Thing.vcxproj|D:\\Documents\\Github\\Elder-Thing\\Elder Thing\\Elder Thing\\player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3C8D9535-09FD-4BA7-AF53-CD31F3DD0D8F}|Elder Thing\\Elder Thing.vcxproj|solutionrelative:Elder Thing\\player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3C8D9535-09FD-4BA7-AF53-CD31F3DD0D8F}|Elder Thing\\Elder Thing.vcxproj|D:\\Documents\\Github\\Elder-Thing\\Elder Thing\\Elder Thing\\weapon.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,50 +78,51 @@
               "Title": "enemy.cpp",
               "DocumentMoniker": "D:\\Documents\\Github\\Elder-Thing\\Elder Thing\\Elder Thing\\enemy.cpp",
               "RelativeDocumentMoniker": "Elder Thing\\enemy.cpp",
-              "ToolTip": "D:\\Documents\\Github\\Elder-Thing\\Elder Thing\\Elder Thing\\enemy.cpp*",
-              "RelativeToolTip": "Elder Thing\\enemy.cpp*",
-              "ViewState": "AgIAADQAAAAAAAAAAAArwEkAAAAOAAAAAAAAAA==",
+              "ToolTip": "D:\\Documents\\Github\\Elder-Thing\\Elder Thing\\Elder Thing\\enemy.cpp",
+              "RelativeToolTip": "Elder Thing\\enemy.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-05-12T22:03:29.027Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "enemy.hpp",
               "DocumentMoniker": "D:\\Documents\\Github\\Elder-Thing\\Elder Thing\\Elder Thing\\enemy.hpp",
               "RelativeDocumentMoniker": "Elder Thing\\enemy.hpp",
               "ToolTip": "D:\\Documents\\Github\\Elder-Thing\\Elder Thing\\Elder Thing\\enemy.hpp",
               "RelativeToolTip": "Elder Thing\\enemy.hpp",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-05-12T18:50:55.04Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "player.cpp",
               "DocumentMoniker": "D:\\Documents\\Github\\Elder-Thing\\Elder Thing\\Elder Thing\\player.cpp",
               "RelativeDocumentMoniker": "Elder Thing\\player.cpp",
               "ToolTip": "D:\\Documents\\Github\\Elder-Thing\\Elder Thing\\Elder Thing\\player.cpp",
               "RelativeToolTip": "Elder Thing\\player.cpp",
-              "ViewState": "AgIAAJAAAAAAAAAAAAAAAGIAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAH0BAAAAAAAAAAAAAK0BAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-26T07:32:48.136Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "player.hpp",
               "DocumentMoniker": "D:\\Documents\\Github\\Elder-Thing\\Elder Thing\\Elder Thing\\player.hpp",
               "RelativeDocumentMoniker": "Elder Thing\\player.hpp",
               "ToolTip": "D:\\Documents\\Github\\Elder-Thing\\Elder Thing\\Elder Thing\\player.hpp",
               "RelativeToolTip": "Elder Thing\\player.hpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEIAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-26T07:32:40.632Z"
+              "WhenOpened": "2025-03-26T07:32:40.632Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -149,15 +150,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "main.cpp",
               "DocumentMoniker": "D:\\Documents\\Github\\Elder-Thing\\Elder Thing\\Elder Thing\\main.cpp",
               "RelativeDocumentMoniker": "Elder Thing\\main.cpp",
-              "ToolTip": "D:\\Documents\\Github\\Elder-Thing\\Elder Thing\\Elder Thing\\main.cpp",
-              "RelativeToolTip": "Elder Thing\\main.cpp",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ToolTip": "D:\\Documents\\Github\\Elder-Thing\\Elder Thing\\Elder Thing\\main.cpp*",
+              "RelativeToolTip": "Elder Thing\\main.cpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-26T07:22:23.17Z"
+              "WhenOpened": "2025-03-26T07:22:23.17Z",
+              "EditorCaption": ""
             }
           ]
         }

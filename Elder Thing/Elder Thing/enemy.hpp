@@ -9,7 +9,7 @@ public:
 	
 	//lifecycle
 	Enemy();
-	Enemy(char* name, int hp, int maxHp, int attackPower);
+	Enemy(const char* name, int hp, int maxHp, int attackPower);
 	Enemy(Enemy const &other);
 	~Enemy();
 
@@ -22,7 +22,7 @@ public:
 	unsigned getAttackPower() const { return attackPower; }
 
 	//game mechanics
-	void sufferDamage();
+	int sufferDamage(unsigned damage);
 	void attackPlayer(Player& player);
 	void printInfo();
 

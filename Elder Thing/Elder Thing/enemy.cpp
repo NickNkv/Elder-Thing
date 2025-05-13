@@ -18,7 +18,7 @@ Enemy::Enemy() {
 	this->attackPower = 2;
 }
 
-Enemy::Enemy(char* name, int hp, int maxHp, int attackPower) {
+Enemy::Enemy(const char* name, int hp, int maxHp, int attackPower) {
 	this->name = new (std::nothrow) char[strlen(name) + 1];
 	if (!name) {
 		throw std::bad_alloc();
@@ -72,4 +72,29 @@ Enemy& Enemy::operator=(Enemy const& other) {
 	}
 
 	return *this;
+}
+
+int Enemy::sufferDamage(unsigned damage) {
+	// 0 - damage not taken
+	// 1 - damage taken
+	// -1 - character died
+	if (damage >= this->hp) {
+		std::cout << this->name << " has died!" << std::endl;
+		return -1;
+	}
+	else {
+		this->hp -= damage;
+		return 1;
+	}
+}
+
+void Enemy::attackPlayer(Player& player) {
+	player.takeDamage(this->attackPower);
+}
+
+void Enemy::printInfo() {
+	std::cout << "Enemy " << this->name << " details\n";
+	std::cout << "Hp: " << this->hp << "\n";
+	std::cout << "Max hp: " << this->maxHp << "\n";
+	std::cout << "Attack power: " << this->attackPower << std::endl;
 }
