@@ -48,3 +48,28 @@ Enemy::Enemy(char* name, int hp, int maxHp, int attackPower) {
 	this->attackPower = attackPower;
 }
 
+Enemy::Enemy(Enemy const& other) {
+	this->name = new char[strlen(other.name) + 1];
+	strcpy(this->name, other.name);
+	this->hp = other.hp;
+	this->maxHp = other.maxHp;
+	this->attackPower = other.attackPower;
+}
+
+Enemy::~Enemy() {
+	delete[] this->name;
+}
+
+Enemy& Enemy::operator=(Enemy const& other) {
+	if (this != &other){
+		char* tempName = new char[strlen(other.name) + 1];
+		delete[] this->name;
+		this->name = tempName;
+
+		this->hp = other.hp;
+		this->maxHp = other.maxHp;
+		this->attackPower = other.attackPower;
+	}
+
+	return *this;
+}
