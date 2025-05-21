@@ -82,3 +82,39 @@ Spell& Spell::operator=(const Spell& other) {
 
 	return *this;
 }
+
+//getters and setters
+void Spell::setName(const char* name) {
+	char* temp = new char[strlen(name) + 1];
+	strcpy(temp, name);
+	delete[] this->name;
+	this->name = temp;
+	temp = nullptr;
+}
+
+void Spell::setDamage(unsigned damage) {
+	if (damage < 0) {
+		std::cout << "Damage can not be a negative number!" << std::endl;
+	}
+	else {
+		this->damage = damage;
+	}
+}
+
+void Spell::setMpCost(unsigned mpCost) {
+	if (mpCost <= 0) {
+		std::cout << "Mana points cost must be a positive number!" << std::endl;
+	}
+	else {
+		this->mpCost = mpCost;
+	}
+}
+
+void Spell::setCooldown(unsigned cooldown) {
+	if (cooldown < 0) {
+		std::cout << "Cooldown cannot be a negative number!" << std::endl;
+	}
+	else {
+		this->cooldown = cooldown;
+	}
+}
