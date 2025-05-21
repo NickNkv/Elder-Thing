@@ -118,3 +118,25 @@ void Spell::setCooldown(unsigned cooldown) {
 		this->cooldown = cooldown;
 	}
 }
+
+void Spell::resetCooldown() {
+	this->remainingCooldown = this->cooldown;
+}
+
+void Spell::decrementCooldown() {
+	this->remainingCooldown -= 1;
+}
+
+bool Spell::isOnCooldown() {
+	return this->remainingCooldown == 0 ? false : true;
+}
+
+void Spell::printInfo() {
+	std::cout << "Spell info - " << this->name << std::endl;
+	std::cout << "Damage: " << this->damage << "\n";
+	std::cout << "Mana cost: " << this->mpCost << "\n";
+	std::cout << "Cooldown: " << this->cooldown << "\n";
+	std::cout << "Required intelligence: " << this->requiredIntelligence << "\n";
+	std::cout << "Required faith: " << this->requiredFaith << "\n";
+	std::cout << "Remaining cooldown: " << this->remainingCooldown << std::endl;
+}

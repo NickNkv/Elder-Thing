@@ -33,6 +33,12 @@ public:
 	//can be changed according to the cooldown property via the designated method below
 	unsigned getRemainingCooldown() const { return remainingCooldown; }
 
+	//game mechanics
+	void resetCooldown();
+	void decrementCooldown();
+	bool isOnCooldown();
+	void printInfo();
+
 private:
 	char* name;
 	unsigned damage;
