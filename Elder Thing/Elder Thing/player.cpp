@@ -37,12 +37,28 @@ Player::Player() {
 		throw std::bad_alloc();
 	}
 	this->weapons[0] = tempWeapon;
+
+	//new atributes
+	this->strength = 10;
+	this->dexterity = 10;
+	this->intelligence = 10;
+	this->faith = 3;
+	this->endurance = 10;
+	this->spellSlots = new (std::nothrow) Spell*[3];
+	if (!this->spellSlots) {
+		delete[] this->weapons;
+		throw std::bad_alloc();
+	}
+	for (int i = 0; i < 3; i++) {
+		this->spellSlots[i] = nullptr;
+	}
+	this->equippedSpellIndex = -1;
 }
 
 Player::Player(const char* name, int hp, int maxHp, int mp, int maxMp, int stamina, int maxStamina, int runes) {
 	if (strlen(name) == 0 || strlen(name) > 31) {
 		std::cout << "Name must be up to 31 characters (and not empty)" << std::endl;
-		throw std::invalid_argument("Invalid name input!");;
+		throw std::invalid_argument("Invalid name input!");
 	}
 	if (hp <= 0 || hp > MAX_HP) {
 		std::cout << "Health must be in range [1, "<< MAX_HP << "]!" << std::endl;
@@ -96,6 +112,22 @@ Player::Player(const char* name, int hp, int maxHp, int mp, int maxMp, int stami
 	if (!this->weapons) {
 		throw std::bad_alloc();
 	}
+
+	//new atributes
+	this->strength = 10;
+	this->dexterity = 10;
+	this->intelligence = 10;
+	this->faith = 3;
+	this->endurance = 10;
+	this->spellSlots = new (std::nothrow) Spell * [3];
+	if (!this->spellSlots) {
+		delete[] this->weapons;
+		throw std::bad_alloc();
+	}
+	for (int i = 0; i < 3; i++) {
+		this->spellSlots[i] = nullptr;
+	}
+	this->equippedSpellIndex = -1;
 }
 
 Player::Player(Player const &other) {
