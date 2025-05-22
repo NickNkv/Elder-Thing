@@ -1,2 +1,11 @@
-﻿  spell.cpp
+﻿  enemy.cpp
+  main.cpp
+  player.cpp
+D:\Documents\Github\Elder-Thing\Elder Thing\Elder Thing\player.cpp(110,20): warning C4018: '<': signed/unsigned mismatch
+D:\Documents\Github\Elder-Thing\Elder Thing\Elder Thing\player.cpp(143,21): warning C4018: '<': signed/unsigned mismatch
+D:\Documents\Github\Elder-Thing\Elder Thing\Elder Thing\player.cpp(334,20): warning C4018: '<': signed/unsigned mismatch
+D:\Documents\Github\Elder-Thing\Elder Thing\Elder Thing\player.cpp(343,30): warning C4018: '>': signed/unsigned mismatch
+D:\Documents\Github\Elder-Thing\Elder Thing\Elder Thing\player.cpp(422,20): warning C4018: '<': signed/unsigned mismatch
+D:\Documents\Github\Elder-Thing\Elder Thing\Elder Thing\player.cpp(432,20): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
   Elder Thing.vcxproj -> D:\Documents\Github\Elder-Thing\Elder Thing\x64\Debug\Elder Thing.exe

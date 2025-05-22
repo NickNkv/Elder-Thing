@@ -1,5 +1,6 @@
 #pragma once
 #include "weapon.hpp"
+#include "spell.hpp"
 
 class Player 
 {
@@ -88,4 +89,13 @@ private:
 	unsigned maxCarryCapacity;
 	unsigned weaponsCount;
 	Weapon* weapons;
+
+	//new atributes
+	unsigned strength;
+	unsigned dexterity;
+	unsigned intelligence;
+	unsigned faith;
+	unsigned endurance;
+	Spell** spellSlots;
+	int equippedSpellIndex;
 };

@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\Documents\\Github\\Elder-Thing\\Elder Thing\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3C8D9535-09FD-4BA7-AF53-CD31F3DD0D8F}|Elder Thing\\Elder Thing.vcxproj|D:\\Documents\\Github\\Elder-Thing\\Elder Thing\\Elder Thing\\spell.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3C8D9535-09FD-4BA7-AF53-CD31F3DD0D8F}|Elder Thing\\Elder Thing.vcxproj|solutionrelative:Elder Thing\\spell.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{3C8D9535-09FD-4BA7-AF53-CD31F3DD0D8F}|Elder Thing\\Elder Thing.vcxproj|D:\\Documents\\Github\\Elder-Thing\\Elder Thing\\Elder Thing\\player.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3C8D9535-09FD-4BA7-AF53-CD31F3DD0D8F}|Elder Thing\\Elder Thing.vcxproj|solutionrelative:Elder Thing\\player.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3C8D9535-09FD-4BA7-AF53-CD31F3DD0D8F}|Elder Thing\\Elder Thing.vcxproj|D:\\Documents\\Github\\Elder-Thing\\Elder Thing\\Elder Thing\\spell.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3C8D9535-09FD-4BA7-AF53-CD31F3DD0D8F}|Elder Thing\\Elder Thing.vcxproj|solutionrelative:Elder Thing\\spell.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C8D9535-09FD-4BA7-AF53-CD31F3DD0D8F}|Elder Thing\\Elder Thing.vcxproj|D:\\Documents\\Github\\Elder-Thing\\Elder Thing\\Elder Thing\\player.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3C8D9535-09FD-4BA7-AF53-CD31F3DD0D8F}|Elder Thing\\Elder Thing.vcxproj|solutionrelative:Elder Thing\\player.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{3C8D9535-09FD-4BA7-AF53-CD31F3DD0D8F}|Elder Thing\\Elder Thing.vcxproj|D:\\Documents\\Github\\Elder-Thing\\Elder Thing\\Elder Thing\\spell.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3C8D9535-09FD-4BA7-AF53-CD31F3DD0D8F}|Elder Thing\\Elder Thing.vcxproj|solutionrelative:Elder Thing\\spell.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3C8D9535-09FD-4BA7-AF53-CD31F3DD0D8F}|Elder Thing\\Elder Thing.vcxproj|D:\\Documents\\Github\\Elder-Thing\\Elder Thing\\Elder Thing\\player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,13 +82,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "spell.cpp",
               "DocumentMoniker": "D:\\Documents\\Github\\Elder-Thing\\Elder Thing\\Elder Thing\\spell.cpp",
               "RelativeDocumentMoniker": "Elder Thing\\spell.cpp",
               "ToolTip": "D:\\Documents\\Github\\Elder-Thing\\Elder Thing\\Elder Thing\\spell.cpp",
               "RelativeToolTip": "Elder Thing\\spell.cpp",
-              "ViewState": "AgIAAHgAAAAAAAAAAAApwIwAAABNAAAAAAAAAA==",
+              "ViewState": "AgIAAHgAAAAAAAAAAAApwI4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-05-21T18:51:58.754Z",
               "EditorCaption": ""
@@ -101,7 +101,7 @@
               "RelativeDocumentMoniker": "Elder Thing\\spell.hpp",
               "ToolTip": "D:\\Documents\\Github\\Elder-Thing\\Elder Thing\\Elder Thing\\spell.hpp",
               "RelativeToolTip": "Elder Thing\\spell.hpp",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACcAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-05-21T17:58:39.734Z",
               "EditorCaption": ""
@@ -144,15 +144,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "player.hpp",
               "DocumentMoniker": "D:\\Documents\\Github\\Elder-Thing\\Elder Thing\\Elder Thing\\player.hpp",
               "RelativeDocumentMoniker": "Elder Thing\\player.hpp",
               "ToolTip": "D:\\Documents\\Github\\Elder-Thing\\Elder Thing\\Elder Thing\\player.hpp",
               "RelativeToolTip": "Elder Thing\\player.hpp",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAEIAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAF0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-26T07:32:40.632Z"
+              "WhenOpened": "2025-03-26T07:32:40.632Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
