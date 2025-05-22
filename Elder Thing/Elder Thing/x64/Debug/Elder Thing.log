@@ -1,8 +1,11 @@
-﻿  player.cpp
-D:\Documents\Github\Elder-Thing\Elder Thing\Elder Thing\player.cpp(142,20): warning C4018: '<': signed/unsigned mismatch
-D:\Documents\Github\Elder-Thing\Elder Thing\Elder Thing\player.cpp(175,21): warning C4018: '<': signed/unsigned mismatch
-D:\Documents\Github\Elder-Thing\Elder Thing\Elder Thing\player.cpp(366,20): warning C4018: '<': signed/unsigned mismatch
-D:\Documents\Github\Elder-Thing\Elder Thing\Elder Thing\player.cpp(375,30): warning C4018: '>': signed/unsigned mismatch
-D:\Documents\Github\Elder-Thing\Elder Thing\Elder Thing\player.cpp(454,20): warning C4018: '<': signed/unsigned mismatch
-D:\Documents\Github\Elder-Thing\Elder Thing\Elder Thing\player.cpp(464,20): warning C4018: '<': signed/unsigned mismatch
-  Elder Thing.vcxproj -> D:\Documents\Github\Elder-Thing\Elder Thing\x64\Debug\Elder Thing.exe
+﻿  enemy.cpp
+  main.cpp
+  player.cpp
+D:\Documents\Github\Elder-Thing\Elder Thing\Elder Thing\player.cpp(149,20): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+D:\Documents\Github\Elder-Thing\Elder Thing\Elder Thing\player.cpp(159,32): error C2102: '&' requires l-value
+D:\Documents\Github\Elder-Thing\Elder Thing\Elder Thing\player.cpp(192,21): warning C4018: '<': signed/unsigned mismatch
+D:\Documents\Github\Elder-Thing\Elder Thing\Elder Thing\player.cpp(383,20): warning C4018: '<': signed/unsigned mismatch
+D:\Documents\Github\Elder-Thing\Elder Thing\Elder Thing\player.cpp(392,30): warning C4018: '>': signed/unsigned mismatch
+D:\Documents\Github\Elder-Thing\Elder Thing\Elder Thing\player.cpp(471,20): warning C4018: '<': signed/unsigned mismatch
+D:\Documents\Github\Elder-Thing\Elder Thing\Elder Thing\player.cpp(481,20): warning C4018: '<': signed/unsigned mismatch

@@ -10,6 +10,7 @@
 #define MAX_STAMINA 1000
 #define MAX_CARRY_CAP 100
 #define MAX_RUNES 10000
+#define SPELL_SLOTS 3
 
 Player::Player() {
 	//atributes
@@ -44,12 +45,12 @@ Player::Player() {
 	this->intelligence = 10;
 	this->faith = 3;
 	this->endurance = 10;
-	this->spellSlots = new (std::nothrow) Spell*[3];
+	this->spellSlots = new (std::nothrow) Spell*[SPELL_SLOTS];
 	if (!this->spellSlots) {
 		delete[] this->weapons;
 		throw std::bad_alloc();
 	}
-	for (int i = 0; i < 3; i++) {
+	for (int i = 0; i < SPELL_SLOTS; i++) {
 		this->spellSlots[i] = nullptr;
 	}
 	this->equippedSpellIndex = -1;
@@ -119,12 +120,12 @@ Player::Player(const char* name, int hp, int maxHp, int mp, int maxMp, int stami
 	this->intelligence = 10;
 	this->faith = 3;
 	this->endurance = 10;
-	this->spellSlots = new (std::nothrow) Spell * [3];
+	this->spellSlots = new (std::nothrow) Spell * [SPELL_SLOTS];
 	if (!this->spellSlots) {
 		delete[] this->weapons;
 		throw std::bad_alloc();
 	}
-	for (int i = 0; i < 3; i++) {
+	for (int i = 0; i < SPELL_SLOTS; i++) {
 		this->spellSlots[i] = nullptr;
 	}
 	this->equippedSpellIndex = -1;
@@ -135,12 +136,28 @@ Player::Player(Player const &other) {
 	//all the other static copying would be deemed unnecessary
 	this->weaponsCount = other.weaponsCount;
 	this->weapons = new (std::nothrow) Weapon[other.weaponsCount];
-	if (!weapons) {
+	if (!this->weapons) {
+		throw std::bad_alloc();
+	}
+
+	this->spellSlots = new (std::nothrow) Spell*[SPELL_SLOTS];
+	if (!this->spellSlots) {
+		delete[] this->weapons;
 		throw std::bad_alloc();
 	}
 
 	for (int i = 0; i < other.weaponsCount; i++) {
 		this->weapons[i] = other.weapons[i];
+	}
+
+	for (int i = 0; i < SPELL_SLOTS; i++) {
+		if (!other.spellSlots[i]) {
+			this->spellSlots[i] = nullptr;
+		}
+		else {
+			const Spell temp = *other.spellSlots[i];
+			this->spellSlots[i] = &Spell(temp);
+		}
 	}
 
 	//atributes
