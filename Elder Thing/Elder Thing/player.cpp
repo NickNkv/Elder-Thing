@@ -546,6 +546,23 @@ void Player::printWeapons() {
 }
 
 void Player::learnSpell(Spell& spell, int slotIndex) {
+	if (slotIndex < 0 || slotIndex >= SPELL_SLOTS) {
+		std::cout << "Invalid spell slot index!" << std::endl;
+		return;
+	}
+
+
+	if (this->spellSlots[slotIndex] != nullptr) {
+		std::cout << "Spell slot " << slotIndex + 1 << " already contains the spell: " << std::endl;
+		this->spellSlots[slotIndex]->printInfo();
+		std::cout << "Do you really want to ovewrite it?\n 1 - Yes\n2 - No\nOption: ";
+		int option = 0;
+		std::cin >> option;
+		while (option < 1 || option > 2) {
+			std::cout << "Invalid option! Try again!\nOption: ";
+			std::cin >> option; 
+		}
+	}
 }
 
 void Player::castSpell() {

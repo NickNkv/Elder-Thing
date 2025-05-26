@@ -102,8 +102,7 @@
               "RelativeToolTip": "Elder Thing\\spell.hpp",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAACoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-21T17:58:39.734Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-21T17:58:39.734Z"
             },
             {
               "$type": "Document",
@@ -127,8 +126,7 @@
               "RelativeToolTip": "Elder Thing\\enemy.hpp",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-12T18:50:55.04Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T18:50:55.04Z"
             },
             {
               "$type": "Document",
@@ -138,7 +136,7 @@
               "RelativeDocumentMoniker": "Elder Thing\\player.cpp",
               "ToolTip": "D:\\Documents\\Github\\Elder-Thing\\Elder Thing\\Elder Thing\\player.cpp*",
               "RelativeToolTip": "Elder Thing\\player.cpp*",
-              "ViewState": "AgIAANUAAAAAAAAAAAAAAOcAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAABkCAAAAAAAAAAAAADICAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-26T07:32:48.136Z",
               "EditorCaption": ""
@@ -151,7 +149,7 @@
               "RelativeDocumentMoniker": "Elder Thing\\player.hpp",
               "ToolTip": "D:\\Documents\\Github\\Elder-Thing\\Elder Thing\\Elder Thing\\player.hpp",
               "RelativeToolTip": "Elder Thing\\player.hpp",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAAAHoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAAAFwAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-03-26T07:32:40.632Z",
               "EditorCaption": ""
