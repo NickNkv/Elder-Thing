@@ -11,6 +11,11 @@
 #define MAX_CARRY_CAP 100
 #define MAX_RUNES 10000
 #define SPELL_SLOTS 3
+#define MAX_STRENGTH 100
+#define MAX_DEXTERITY 100
+#define MAX_INTELLIGENCE 100
+#define MAX_FAITH 100
+#define MAX_ENDURANCE 100
 
 Player::Player() {
 	//atributes
@@ -155,8 +160,7 @@ Player::Player(Player const &other) {
 			this->spellSlots[i] = nullptr;
 		}
 		else {
-			const Spell temp = *other.spellSlots[i];
-			this->spellSlots[i] = &Spell(temp);
+			this->spellSlots[i] = new Spell(*other.spellSlots[i]);
 		}
 	}
 
@@ -222,6 +226,10 @@ Player& Player::operator =(Player const& other) {
 Player::~Player() {
 	std::cout << this->name << " has been destroyed!" << std::endl;
 	delete[] this->weapons;
+	for (int i = 0; i < SPELL_SLOTS; i++) {
+		delete this->spellSlots[i];
+	}
+	delete[] this->spellSlots;
 }
 
 void Player::setName(const char* name) {
@@ -359,6 +367,58 @@ Weapon* Player::getWeapons() const {
 	return this->weapons;
 }
 
+//new getters/setters - week 7
+
+void Player::setStrength(int strength) {
+	if (strength < 1 || strength > MAX_STRENGTH) {
+		std::cout << "Strength must be in range [1, " << MAX_STRENGTH << "]!" << std::endl;
+	}
+	else {
+		this->strength = (unsigned)strength;
+	}
+}
+
+void Player::setDexterity(int dexterity) {
+	if (dexterity < 1 || dexterity > MAX_DEXTERITY) {
+		std::cout << "Dexterity must be in range [1, " << MAX_DEXTERITY << "]!" << std::endl;
+	}
+	else {
+		this->dexterity = (unsigned)dexterity;
+	}
+}
+
+void Player::setIntelligence(int intelligence) {
+	if (intelligence < 1 || intelligence > MAX_INTELLIGENCE) {
+		std::cout << "Intelligence must be in range [1, " << MAX_INTELLIGENCE << "]!" << std::endl;
+	}
+	else {
+		this->intelligence = (unsigned)intelligence;
+	}
+}
+
+void Player::setFaith(int faith) {
+	if (faith < 1 || faith > MAX_FAITH) {
+		std::cout << "Faith must be in range [1, " << MAX_FAITH << "]!" << std::endl;
+	}
+	else {
+		this->faith = (unsigned)faith;
+	}
+}
+
+void Player::setEndurance(int endurance) {
+	if (endurance < 1 || endurance > MAX_ENDURANCE) {
+		std::cout << "Endurance must be in range [1, " << MAX_ENDURANCE << "]!" << std::endl;
+	}
+	else {
+		this->endurance = (unsigned)endurance;
+	}
+}
+
+void Player::setEquippedSpell(int index) {
+	//to be implemented
+}
+
+
 //game mechanics
 void Player::addWeapon(Weapon& weapon) {
 	if (this->weaponsCount == 3) {
@@ -483,4 +543,11 @@ void Player::printWeapons() {
 		this->weapons[i].printInfo();
 		std::cout << "\n";
 	}
+}
+
+void Player::learnSpell(Spell& spell, int slotIndex) {
+}
+
+void Player::castSpell() {
+	std::cout << "pls add function plz :(" << std::endl;
 }

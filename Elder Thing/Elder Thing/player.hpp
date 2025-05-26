@@ -61,6 +61,25 @@ public:
 
 	Weapon* getWeapons() const;
 
+	//new getters/setters - week 7
+	unsigned getStrength() const { return strength; }
+	void setStrength(int strength);
+
+	unsigned getDexterity() const { return dexterity; }
+	void setDexterity(int dexterity);
+
+	unsigned getIntelligence() const { return intelligence; }
+	void setIntelligence(int intelligence);
+
+	unsigned getFaith() const { return faith; }
+	void setFaith(int faith);
+
+	unsigned getEndurance() const { return endurance; }
+	void setEndurance(int endurance);
+
+	unsigned getEquippedSpellIndex() const { return equippedSpellIndex; }
+	void setEquippedSpell(int index);
+
 	//game mechanics
 	void addWeapon(Weapon& weapon);
 	void deleteWeapon();
@@ -69,6 +88,11 @@ public:
 	int takeDamage(unsigned damage); // todo: add armor
 	void printInfo();
 	void printWeapons();
+
+	//new game mechanics - week 7
+	void learnSpell(Spell& spell, int slotIndex);
+	void unequipSpell();
+	void castSpell();
 
 private:
 	//atributes
@@ -90,7 +114,7 @@ private:
 	unsigned weaponsCount;
 	Weapon* weapons;
 
-	//new atributes
+	//new atributes - week 7
 	unsigned strength;
 	unsigned dexterity;
 	unsigned intelligence;
