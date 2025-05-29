@@ -10,6 +10,7 @@
 #define MAX_STAMINA 1000
 #define MAX_CARRY_CAP 100
 #define MAX_RUNES 10000
+#define WEAPONS_COUNT 3
 #define SPELL_SLOTS 3
 #define MAX_STRENGTH 100
 #define MAX_DEXTERITY 100
@@ -38,7 +39,7 @@ Player::Player() {
 	this->maxCarryCapacity = 15;
 	this->weaponsCount = 1;
 	Weapon tempWeapon;
-	this->weapons = new (std::nothrow) Weapon[3];
+	this->weapons = new (std::nothrow) Weapon[WEAPONS_COUNT];
 	if (!this->weapons) {
 		throw std::bad_alloc();
 	}
@@ -114,7 +115,7 @@ Player::Player(const char* name, int hp, int maxHp, int mp, int maxMp, int stami
 	this->currentWeight = 0; //weight is added from what the player is carrying, not his body weight
 	this->maxCarryCapacity = MAX_CARRY_CAP;
 	this->weaponsCount = 0; //we start without weapons
-	this->weapons = new (std::nothrow) Weapon[3];
+	this->weapons = new (std::nothrow) Weapon[WEAPONS_COUNT];
 	if (!this->weapons) {
 		throw std::bad_alloc();
 	}
@@ -587,6 +588,23 @@ void Player::castSpell() {
 }
 
 //week 9 - predefinirane na operatori
+
+std::ostream& operator<<(std::ostream& out, const Player& player) {
+	out << "Name: " << player.name << "\n";
+	out << "Level: " << player.level << "\n";
+	out << "Health: " << player.hp << "\n";
+
+	if (player.weaponsCount == 0) out << "No weapons available\n";
+
+	for (int i = 0; i < player.weaponsCount; i++) {
+		out << "No." << i + 1 << " - ";
+		player.weapons[i].printInfo();
+		out << "\n";
+	}
+
+	return out;
+}
+
 Player& operator++(Player& player) {
 	unsigned newLevel = player.getLevel() + 1;
 	player.setLevel(newLevel);

@@ -15,7 +15,7 @@ int main() {
 
 	Enemy barbarian("Mike", 30, 50, 10);
 	//barbarian.printInfo();
-	john.printInfo();
+	std::cout << john;
 	/*barbarian.attackPlayer(john);
 	john.printInfo();*/
 	//john++;

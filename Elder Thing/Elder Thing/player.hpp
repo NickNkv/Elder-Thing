@@ -1,4 +1,5 @@
 #pragma once
+#include <iostream>
 #include "weapon.hpp"
 #include "spell.hpp"
 
@@ -93,6 +94,9 @@ public:
 	void learnSpell(Spell& spell, int slotIndex);
 	void unequipSpell();
 	void castSpell();
+
+	//week 9 - predefinirane na operatori
+	friend std::ostream& operator << (std::ostream&, const Player&);
 
 private:
 	//atributes
