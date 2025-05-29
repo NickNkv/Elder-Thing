@@ -123,3 +123,7 @@ private:
 	Spell** spellSlots;
 	int equippedSpellIndex;
 };
+
+//week 9 - predefinirane na operatori
+Player& operator++(Player&); // ++player
+const Player& operator++(Player&, int); // player++

@@ -16,8 +16,10 @@ int main() {
 	Enemy barbarian("Mike", 30, 50, 10);
 	//barbarian.printInfo();
 	john.printInfo();
-	barbarian.attackPlayer(john);
-	john.printInfo();
+	/*barbarian.attackPlayer(john);
+	john.printInfo();*/
+	//john++;
+	//john.printInfo();
 
 	return 0;
 }

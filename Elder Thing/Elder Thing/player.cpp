@@ -585,3 +585,16 @@ void Player::learnSpell(Spell& spell, int slotIndex) {
 void Player::castSpell() {
 	std::cout << "pls add function plz :(" << std::endl;
 }
+
+//week 9 - predefinirane na operatori
+Player& operator++(Player& player) {
+	unsigned newLevel = player.getLevel() + 1;
+	player.setLevel(newLevel);
+	return player;
+}
+
+const Player& operator++(Player& player, int dummy) {
+	Player old(player);
+	++player;
+	return old;
+}
