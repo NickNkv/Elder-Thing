@@ -1,8 +1,8 @@
 ﻿  player.cpp
 D:\Documents\Github\Elder-Thing\Elder Thing\Elder Thing\player.cpp(154,20): warning C4018: '<': signed/unsigned mismatch
-D:\Documents\Github\Elder-Thing\Elder Thing\Elder Thing\player.cpp(196,21): warning C4018: '<': signed/unsigned mismatch
-D:\Documents\Github\Elder-Thing\Elder Thing\Elder Thing\player.cpp(443,20): warning C4018: '<': signed/unsigned mismatch
-D:\Documents\Github\Elder-Thing\Elder Thing\Elder Thing\player.cpp(452,30): warning C4018: '>': signed/unsigned mismatch
-D:\Documents\Github\Elder-Thing\Elder Thing\Elder Thing\player.cpp(531,20): warning C4018: '<': signed/unsigned mismatch
-D:\Documents\Github\Elder-Thing\Elder Thing\Elder Thing\player.cpp(541,20): warning C4018: '<': signed/unsigned mismatch
+D:\Documents\Github\Elder-Thing\Elder Thing\Elder Thing\player.cpp(204,21): warning C4018: '<': signed/unsigned mismatch
+D:\Documents\Github\Elder-Thing\Elder Thing\Elder Thing\player.cpp(451,20): warning C4018: '<': signed/unsigned mismatch
+D:\Documents\Github\Elder-Thing\Elder Thing\Elder Thing\player.cpp(460,30): warning C4018: '>': signed/unsigned mismatch
+D:\Documents\Github\Elder-Thing\Elder Thing\Elder Thing\player.cpp(539,20): warning C4018: '<': signed/unsigned mismatch
+D:\Documents\Github\Elder-Thing\Elder Thing\Elder Thing\player.cpp(549,20): warning C4018: '<': signed/unsigned mismatch
   Elder Thing.vcxproj -> D:\Documents\Github\Elder-Thing\Elder Thing\x64\Debug\Elder Thing.exe

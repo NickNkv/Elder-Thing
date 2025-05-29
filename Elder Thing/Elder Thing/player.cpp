@@ -182,6 +182,14 @@ Player::Player(Player const &other) {
 	//equipment
 	this->currentWeight = other.currentWeight;
 	this->maxCarryCapacity = other.maxCarryCapacity;
+
+	//new atributes
+	this->strength = other.strength;
+	this->dexterity = other.dexterity;
+	this->intelligence = other.intelligence;
+	this->faith = other.faith;
+	this->endurance = other.endurance;
+	this->equippedSpellIndex = -1;
 }
 
 Player& Player::operator =(Player const& other) {
@@ -551,7 +559,7 @@ void Player::learnSpell(Spell& spell, int slotIndex) {
 		return;
 	}
 
-
+	//checking if player really want to delete old spell
 	if (this->spellSlots[slotIndex] != nullptr) {
 		std::cout << "Spell slot " << slotIndex + 1 << " already contains the spell: " << std::endl;
 		this->spellSlots[slotIndex]->printInfo();
@@ -562,7 +570,16 @@ void Player::learnSpell(Spell& spell, int slotIndex) {
 			std::cout << "Invalid option! Try again!\nOption: ";
 			std::cin >> option; 
 		}
+		if (option == 2) {
+			std::cout << "Canceled learning new spell" << std::endl;
+		}
+
+		delete this->spellSlots[slotIndex];
 	}
+
+	//deep copy the new spell
+	this->spellSlots[slotIndex] = new Spell(spell);
+	std::cout << "Learned spell " << spell.getName() << " in slot " << slotIndex + 1 << std::endl;
 }
 
 void Player::castSpell() {
