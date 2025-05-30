@@ -140,3 +140,20 @@ void Spell::printInfo() {
 	std::cout << "Required faith: " << this->requiredFaith << "\n";
 	std::cout << "Remaining cooldown: " << this->remainingCooldown << std::endl;
 }
+
+//week 9 - predefinirane na operatori
+std::ostream& operator<<(std::ostream& out, const Spell& spell) {
+	out << "Name: " << spell.name << "\n";
+	out << "Damage: " << spell.damage << "\n";
+	out << "Mana cost: " << spell.mpCost << std::endl;   
+
+	return out;
+}
+
+bool operator>(const Spell& lhs, const Spell& rhs) {
+	return lhs.getDamage() > rhs.getDamage();
+}
+
+bool operator<(const Spell& lhs, const Spell& rhs) {
+	return lhs.getDamage() < rhs.getDamage();
+}

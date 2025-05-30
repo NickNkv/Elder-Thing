@@ -1,4 +1,5 @@
 #pragma once
+#include <iostream>
 
 class Spell 
 {
@@ -39,6 +40,9 @@ public:
 	bool isOnCooldown();
 	void printInfo();
 
+	//week 9 - predefinirane na operatori
+	friend std::ostream& operator << (std::ostream&, const Spell&);
+
 private:
 	char* name;
 	unsigned damage;
@@ -48,3 +52,6 @@ private:
 	unsigned requiredFaith;
 	unsigned remainingCooldown; //in mins
 };
+
+bool operator > (const Spell&, const Spell&);
+bool operator < (const Spell&, const Spell&);

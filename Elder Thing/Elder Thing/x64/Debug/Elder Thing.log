@@ -1,4 +1,14 @@
 ﻿  enemy.cpp
   main.cpp
+  player.cpp
+D:\Documents\Github\Elder-Thing\Elder Thing\Elder Thing\player.cpp(155,20): warning C4018: '<': signed/unsigned mismatch
+D:\Documents\Github\Elder-Thing\Elder Thing\Elder Thing\player.cpp(205,21): warning C4018: '<': signed/unsigned mismatch
+D:\Documents\Github\Elder-Thing\Elder Thing\Elder Thing\player.cpp(452,20): warning C4018: '<': signed/unsigned mismatch
+D:\Documents\Github\Elder-Thing\Elder Thing\Elder Thing\player.cpp(461,30): warning C4018: '>': signed/unsigned mismatch
+D:\Documents\Github\Elder-Thing\Elder Thing\Elder Thing\player.cpp(540,20): warning C4018: '<': signed/unsigned mismatch
+D:\Documents\Github\Elder-Thing\Elder Thing\Elder Thing\player.cpp(550,20): warning C4018: '<': signed/unsigned mismatch
+D:\Documents\Github\Elder-Thing\Elder Thing\Elder Thing\player.cpp(599,20): warning C4018: '<': signed/unsigned mismatch
+  spell.cpp
   Generating Code...
+D:\Documents\Github\Elder-Thing\Elder Thing\Elder Thing\player.cpp(617,1): warning C4172: returning address of local variable or temporary : old
   Elder Thing.vcxproj -> D:\Documents\Github\Elder-Thing\Elder Thing\x64\Debug\Elder Thing.exe
