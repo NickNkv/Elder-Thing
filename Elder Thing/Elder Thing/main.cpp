@@ -7,7 +7,7 @@ int main() {
 	Player john;
 	////john.printInfo();
 	//john.printWeapons();
-	//Weapon glock("Glock", 20, 2, 2);
+	Weapon glock("Glock", 20, 2, 2);
 	//john.addWeapon(glock);
 	//john.printWeapons();
 	//john.deleteWeapon();
@@ -15,7 +15,9 @@ int main() {
 
 	Enemy barbarian("Mike", 30, 50, 10);
 	//barbarian.printInfo();
-	std::cout << john;
+	//std::cout << john;
+	//std::cin >> glock;
+	std::cout << glock;
 	/*barbarian.attackPlayer(john);
 	john.printInfo();*/
 	//john++;

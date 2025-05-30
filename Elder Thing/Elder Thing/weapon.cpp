@@ -45,3 +45,78 @@ void Weapon::printInfo() {
 	std::cout << "Weight: " << this->weight << std::endl;
 	std::cout << "Required strength: " << this->requiredStrength << std::endl;
 }
+
+//week 9 - predefinirane na operatori
+
+std::ostream& operator<<(std::ostream& out, const Weapon& weapon) {
+	out << "Name: " << weapon.getName() << "\n";
+	out << "Damage: " << weapon.getDamage() << "\n";
+	out << "Weight: " << weapon.getWeight() << "\n";
+	out << "Required strength: " << weapon.getRequiredStrength() << std::endl;
+
+	return out;
+}
+
+std::istream& operator>>(std::istream& in, Weapon& weapon) {
+	char slash = ' ';
+
+	char name[32];
+	in >> name;
+	in >> slash;
+	if (slash != ' ') {
+		in.setstate(std::ios::failbit);
+	}
+
+	unsigned damage = 1;
+	in >> damage;
+	in >> slash;
+	if (slash != ' ') {
+		in.setstate(std::ios::failbit);
+	}
+
+	unsigned weight = 1;
+	in >> weight;
+	in >> slash;
+	if (slash != ' ') {
+		in.setstate(std::ios::failbit);
+	}
+
+	unsigned reqStr = 1;
+	in >> reqStr;
+
+
+	if (in)
+	{
+		strcpy(weapon.name, name);
+		weapon.damage = damage;
+		weapon.weight = weight;
+		weapon.requiredStrength = reqStr;
+	}
+
+	return in;
+}
+
+bool operator==(const Weapon& lhs, const Weapon& rhs) {
+	if (strcmp(lhs.getName(), rhs.getName()) == 0 &&
+		lhs.getDamage() == rhs.getDamage() &&
+		lhs.getWeight() == rhs.getWeight() &&
+		lhs.getRequiredStrength() == rhs.getRequiredStrength()) 
+	{
+		return true;
+	}
+	else {
+		return false;
+	}
+}
+
+bool operator!=(const Weapon& lhs, const Weapon& rhs) {
+	return !(lhs == rhs);
+}
+
+bool operator>(const Weapon& lhs, const Weapon& rhs) {
+	return lhs.getDamage() > rhs.getDamage();
+}
+
+bool operator<(const Weapon& lhs, const Weapon& rhs) {
+	return lhs.getDamage() < rhs.getDamage();
+}
