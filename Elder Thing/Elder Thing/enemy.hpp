@@ -1,5 +1,6 @@
 #pragma once
 #include "player.hpp"
+#include <iostream>
 
 class Enemy 
 {
@@ -26,9 +27,15 @@ public:
 	void attackPlayer(Player& player);
 	void printInfo();
 
+	//predefinirane na operatori
+	friend std::ostream& operator << (std::ostream&, const Enemy&);
+
 private:
 	char* name;
 	unsigned hp;
 	unsigned maxHp;
 	unsigned attackPower;
 };
+
+//weel 9 - predefinirane na operatori
+bool operator ! (const Enemy&);

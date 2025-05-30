@@ -98,3 +98,17 @@ void Enemy::printInfo() {
 	std::cout << "Max hp: " << this->maxHp << "\n";
 	std::cout << "Attack power: " << this->attackPower << std::endl;
 }
+
+//week 9 - predefinirane na operatori
+
+std::ostream& operator<<(std::ostream& out, const Enemy& enemy) {
+	out << "Name: " << enemy.getName() << "\n";
+	out << "Hp: " << enemy.getHp() << "\n";
+	out << "Damage: " << enemy.getAttackPower() << std::endl;
+
+	return out;
+}
+
+bool operator!(const Enemy& enemy) {
+	return enemy.getHp() == 0;
+}
